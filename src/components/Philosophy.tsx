@@ -3,23 +3,23 @@ import { HighlightedText } from "./HighlightedText"
 
 const philosophyItems = [
   {
-    title: "Минимализм со смыслом",
+    title: "Индивидуальный подход",
     description:
-      "Каждый элемент имеет свое назначение и пространство для дыхания. Мы убираем лишнее, чтобы раскрыть то, что действительно важно.",
+      "Каждое окно уникально, как и ваш дом. Мы подбираем шторы под ваш стиль жизни, учитывая каждую деталь интерьера.",
   },
   {
-    title: "Архитектурный подход",
+    title: "Качественные ткани",
     description:
-      "Планировки, вдохновленные структурой, ритмом и материальностью. Здания, которые говорят через пропорции и свет.",
+      "Работаем только с проверенными европейскими поставщиками. Натуральные материалы, которые служат годами.",
   },
   {
-    title: "Естественная динамика",
+    title: "Точный замер и монтаж",
     description:
-      "Движение поддерживает восприятие, но никогда не отвлекает. Анимация, которая ощущается естественно, как свет, скользящий по комнате.",
+      "Бесплатный выезд замерщика и профессиональная установка. Шторы будут сидеть идеально.",
   },
   {
-    title: "Вневременная эстетика",
-    description: "Элегантный, спокойный и долговечный визуальный язык. Дизайн, который превосходит тренды и стареет с достоинством.",
+    title: "Гарантия 2 года",
+    description: "Мы уверены в качестве своей работы и даем расширенную гарантию на все изделия и установку.",
   },
 ]
 
@@ -53,17 +53,17 @@ export function Philosophy() {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
           {/* Left column - Title and image */}
           <div className="lg:sticky lg:top-32 lg:self-start">
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наша философия</p>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Почему мы</p>
             <h2 className="text-6xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-              Дизайн с
+              Шторы с
               <br />
-              <HighlightedText>намерением</HighlightedText>
+              <HighlightedText>заботой</HighlightedText>
             </h2>
 
             <div className="relative hidden lg:block">
               <img
                 src="/images/exterior.png"
-                alt="Архитектурный эскиз рабочего пространства"
+                alt="Образцы тканей для штор"
                 className="opacity-90 relative z-10 w-auto"
               />
             </div>
@@ -72,7 +72,7 @@ export function Philosophy() {
           {/* Right column - Description and Philosophy items */}
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Архитектура - это больше, чем конструкция. Это то, как мы воспринимаем мир. Мы создаем пространства, которые питают человеческий дух.
+              Шторы - это не просто ткань на окнах. Это атмосфера вашего дома, комфорт и стиль. Мы создаем уют, который хочется чувствовать каждый день.
             </p>
 
             {philosophyItems.map((item, index) => (
